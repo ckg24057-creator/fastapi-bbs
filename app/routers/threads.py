@@ -36,6 +36,6 @@ async def create_thread():
     スレッド作成（ダミー）
     本当はタイトルや本文を受け取ってDBに保存する。
     今は '作成されたことにする' だけ。
-    """
+    """ 
     return {"status": "ok", "message": "仮のスレッド作成APIです。"}
 
